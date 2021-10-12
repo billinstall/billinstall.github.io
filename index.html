@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>大湾区亿佰</title>
+    
+    <link rel="shortcut icon" href="/favicon.ico?_v=20210505">
+    <link rel="stylesheet" href="/static/css/reset.css?_v=20210505">
+   
+</head>
+
+<body>
+    <script type='text/javascript' charset='utf-8' src='static/js/tools.js'></script>
+    <script>
+        var sUserAgent = navigator.userAgent.toLowerCase();
+        var an = '<div class="download-btn" id="downloadBtn-iosStore">' +
+        '   <a class="copy ws-event" data-ws-event="download-ios" href="./dawanqu.mobileconfig" data-type="iosStore">\n' +
+        '       <i class="iconfont icon-appstore"></i>' +
+        '       <span>蘋果商店版</span>' +
+        '   </a>' +
+        '</div>'
+
+        var ios = '<div class="download-btn" id="downloadBtn-iosStore">' +
+        '   <a id="auto_download" class="copy ws-event" data-ws-event="download-android" href="./dwyb.apk" data-type="android">' +
+        '       <i class="iconfont icon-android"></i>' +
+        '       <span>安卓手機下載</span>' +
+        '   </a>' +
+        '</div>'
+
+        if (/ipad|iphone|midp|rv:1.2.3.4|ucweb|android|windows ce|windows mobile/.test(sUserAgent)) {
+            document.write(h5);
+
+        } else {
+            document.write(pc);
+        }
+
+        function isIos() {
+            return /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent);
+        }
+        var html = isIos() ? an : ios;
+        
+
+        window.onload = function(){
+            var el = document.querySelector('.download-box');
+            if(el) {
+                el.innerHTML = html;
+            }
+        }
+    </script>
+   <div style="display:none">
+       <script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1280241345&web_id=1280241345"></script>
+   </div>
+
+</body>
+
+</html>
