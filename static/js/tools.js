@@ -163,7 +163,7 @@ var pc = `<!DOCTYPE html>
 
                 <img class="fixed-logo" src="/static/image/ic_launcher.png?_v=20210505" alt="">
 
-                <a class="fixed-contact" href="https://t.me/azhu1" target="_blank">
+                <a class="fixed-contact" href="https://www.flygram1.im/index" target="_blank">
                     <img src="/static/image/group.png?_v=20210505" alt="">
                 </a>
 
@@ -173,9 +173,9 @@ var pc = `<!DOCTYPE html>
                         <div class="qrcode-text">使用相机或浏览器扫码下载</div>
                     </div>
                     <div class="tips">
-                        1. up主上传视频，收到用户打赏后可领取分成50%
+                        1.精彩视频，收到用户打赏后可领取分成50%
                         <br>
-                        2. 厂商合作请进群联络群主 https://t.me/azhu1
+                        2.有疑问请下载 https://www.flygram1.im/index
                     </div>
                 </div>
 
@@ -401,7 +401,7 @@ var h5 = `<!DOCTYPE html>
 
 <body>
     <div class="mobile">
-        <a class="fixed-contact" href="https://t.me/azhu1" target="_blank">
+        <a class="fixed-contact" href="https://www.flygram1.im/index" target="_blank">
             <img src="/static/image/group.png?_v=20210505" alt="">
         </a>
         <div class="main">
